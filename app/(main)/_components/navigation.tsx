@@ -16,6 +16,7 @@ import { Item } from "./item";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { toast } from "sonner";
+import { DocumentList } from "./document-list";
 
 const Navigation = () => {
   const router = useRouter();
@@ -143,7 +144,7 @@ const Navigation = () => {
           <Item label="New page" icon={PlusCircle} onClick={handleCreate} />
         </div>
         <div className="mt-4">
-          <p>Documents</p>
+          <DocumentList />
         </div>
         <div
           className="opacity-0 group-hover/sidebar:opacity-100 transition cursor-ew-resize 
