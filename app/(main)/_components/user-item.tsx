@@ -23,15 +23,15 @@ export const UserItem = () => {
           role="button"
           className="flex items-center text-sm p-3 w-full hover:bg-primary/5"
         >
-          <div className="gap-x-2 flex items-center max-w-[150px]">
+          <div className="gap-x-2 flex items-center max-w-[160px]">
             <Avatar className="h-5 w-5">
               <AvatarImage src={user?.imageUrl} />
             </Avatar>
             <span className="text-start font-medium line-clamp-1">
-              {user?.fullName}&apos;s Jotion
+              {user?.fullName}&apos;s Noty
             </span>
           </div>
-          <ChevronsLeftRight className="rotate-90 ml-2 text-muted-foreground h-4 w-4" />
+          <ChevronsLeftRight className="rotate-90 ml-1.5 text-muted-foreground h-3 w-3" />
         </div>
       </DropdownMenuTrigger>
       <DropdownMenuContent
