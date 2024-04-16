@@ -170,7 +170,7 @@ const Navigation = () => {
           </Popover>
         </div>
         <div
-          className="opacity-0 group-hover/sidebar:opacity-100 transition cursor-ew-resize 
+          className="opacity-0 group-hover/sidebar:opacity-100 transition cursor-col-resize
           absolute h-full w-0.5 bg-primary/10 right-0 top-0"
           onMouseDown={handleMouseDown}
           onClick={resetWidth}
